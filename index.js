@@ -1,7 +1,9 @@
-
 import express from "express";
+import cors from "cors";
 
 const app = express();
+
+app.use(cors());
 
 const GET_TEAMS = JSON.stringify({
   teams: [
@@ -145,6 +147,8 @@ const GET_GOALS_WITH_SUBTASKS = JSON.stringify({
 const GET_USER_INFO = JSON.stringify({
   id: 1,
   name: "noha",
+  firstName: "Hoda",
+  lastName: "Hamdy",
   email: "noha@robustastudio.com",
   started_at: "Sun Oct 03 2020 21:22:05 GMT+0200",
   position: 2,
@@ -237,6 +241,6 @@ app.put("/user-info", (_, res) => {
   return res.send(POST_PUT_RES);
 });
 
-app.listen(process.env.PORT || 8000, () => {
-  console.log("app is up and runnig on port 8000");
+app.listen(8000, (err) => {
+  console.log("app is up and runnig on port 8000", err);
 });

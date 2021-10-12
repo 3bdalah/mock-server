@@ -241,6 +241,6 @@ app.put("/user-info", (_, res) => {
   return res.send(POST_PUT_RES);
 });
 
-app.listen(8000, (err) => {
-  console.log("app is up and runnig on port 8000", err);
+app.listen(process.env.PORT || 8000, (err) => {
+  console.log(`app is up and runnig on port ${process.env.PORT || 8000}`, err);
 });

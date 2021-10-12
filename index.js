@@ -1,5 +1,5 @@
-const express = require("express");
-const cors = require("cors");
+import express from "express";
+import cors from "cors";
 
 const app = express();
 
@@ -249,5 +249,5 @@ app.put("/user-info", (_, res) => {
 });
 
 app.listen(process.env.PORT || 8000, () => {
-  console.log("app is up and runnig on port 8000");
+  console.log(`app is up and runnig on port ${process.env.PORT || 8000}`);
 });

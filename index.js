@@ -134,6 +134,31 @@ const GET_GOALS_WITH_SUBTASKS = JSON.stringify({
       ],
     },
     {
+      id: 14,
+      name: "ad7r el standup",
+      difficulty_points: 20,
+      category: "hi",
+      timestamps: "Sun Oct 06 2021 11:10:38 GMT+0200",
+      subtasks: [
+        {
+          id: 30,
+          details: "ay 7ag ... lorem, as if we agreed on the todo_status",
+          todo_status: 2,
+          deadline:
+            "Sun Oct 11 2021 21:22:05 GMT+0200 (Eastern European Standard Time)",
+          timestamps: "Sun Oct 03 2021 21:22:05 GMT+0200",
+        },
+        {
+          id: 31,
+          details: "ay 7ag ... lorem, there is a ....",
+          todo_status: 1,
+          deadline:
+            "Sun Oct 12 2021 21:22:05 GMT+0200 (Eastern European Standard Time)",
+          timestamps: "Sun Oct 04 2021 21:22:05 GMT+0200",
+        },
+      ],
+    },
+    {
       id: 20,
       name: "try not to die",
       difficulty_points: 2,

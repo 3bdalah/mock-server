@@ -181,6 +181,8 @@ const GET_GOALS_WITH_SUBTASKS = JSON.stringify({
 const GET_USER_INFO = JSON.stringify({
   id: 1,
   name: "noha",
+  firstName: "Hoda",
+  lastName: "Hamdy",
   email: "noha@robustastudio.com",
   started_at: "Sun Oct 03 2020 21:22:05 GMT+0200",
   position: 2,

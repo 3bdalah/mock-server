@@ -186,7 +186,8 @@ const GET_USER_INFO = JSON.stringify({
   email: "noha@robustastudio.com",
   started_at: "Sun Oct 03 2020 21:22:05 GMT+0200",
   position: 2,
-  profile_photo: "link",
+  profile_photo:
+    "http://www.ga.berkeley.edu/wp-content/uploads/2015/08/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png",
   timestamps: "Sun Oct 12 2020 21:22:05 GMT+0200",
   role: "manager",
   isRegistered: true,
